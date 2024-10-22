@@ -6,11 +6,10 @@ import image2 from "../../../../public/Governor-website-pics/slideShow2.ce4d5430
 import image3 from "../../../../public/Governor-website-pics/slideShow3.0006489a.jpg";
 import image4 from "../../../../public/Governor-website-pics/slideShow4.d9ba1e2d.jpg";
 import image5 from "../../../../public/Governor-website-pics/slideShow5.b502aa01.jpg";
-import image6 from "../../../../public/Governor-website-pics/slideShow6.03103579.jpg";
 import image7 from "../../../../public/Governor-website-pics/slideShow7.9e3fcc75.jpg";
 import image8 from "../../../../public/Governor-website-pics/slideShow8.4b79537a.jpg";
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8];
+const images = [image1, image2, image3, image4, image5, image7, image8];
 
 const SlidingImages = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
