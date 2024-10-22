@@ -1,9 +1,9 @@
 
 const Footer = () => {
   return (
-    <div className="flex mt-12 bg-gray-200 h-[400px] justify-evenly py-20">
-      <div className="space-y-2 text-lg">
-        <h1 className="font-bold text-xl text-gray-800">Core Courses</h1>
+    <div className="lg:flex mt-12 bg-gray-200 w-full h-[600px] lg:h-[400px] justify-evenly py-14 space-y-8">
+      <div className="space-y-2 lg:text-lg">
+        <h1 className="font-bold xl:text-xl text-gray-800">Core Courses</h1>
         <p className="cursor-pointer w-[300px] h-8 hover:bg-gray-500 transition-all duration-200">
           Programing Fundamentals
         </p>
@@ -14,8 +14,8 @@ const Footer = () => {
           Earn as You Learn
         </p>
       </div>
-      <div className="space-y-2 text-lg">
-        <h1 className="font-bold text-xl text-gray-800">Advanced Courses</h1>
+      <div className="space-y-2 lg:text-lg">
+        <h1 className="font-bold xl:text-xl text-gray-800">Advanced Courses</h1>
         <p className="cursor-pointer w-[300px] h-8 hover:bg-gray-500 transition-all duration-200">
           Artificial Inteligence
         </p>
@@ -35,8 +35,8 @@ const Footer = () => {
           Network Programmability and Automation
         </p>
       </div>
-      <div className="space-y-2 text-lg">
-        <h1 className="font-bold text-xl text-gray-800">Social Links</h1>
+      <div className="space-y-2 lg:text-lg">
+        <h1 className="font-bold xl:text-xl text-gray-800">Social Links</h1>
         <p className="cursor-pointer underline text-blue-600 hover:text-blue-800">
           education@governorsindh.com
         </p>
