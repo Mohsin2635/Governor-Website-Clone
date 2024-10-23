@@ -24,21 +24,21 @@ const About = () => {
         model and work independently and will not need to hire employees or
         other team members.
       </p>
-      <div className="mt-10 space-y-7 md:space-y-0 md:space-x-10 md:ml-16 md:flex">
+      <div className="mt-10 space-y-9 md:space-y-0 md:space-x-10 md:ml-16 md:flex place-items-center">
         <Image
           src={image1}
           alt="Website-Imaeg"
-          className="w-full h-[400px] object-cover shadow-2xl shadow-black rounded-xl md:w-[30%] md:h-[350px] "
+          className="w-[90%] h-[400px] object-cover shadow-2xl shadow-black rounded-xl md:w-[30%] md:h-[350px] "
         ></Image>
         <Image
           src={image2}
           alt="Website-Imaeg"
-          className="w-full h-[400px] object-cover shadow-2xl shadow-black rounded-xl md:w-[30%] md:h-[350px]"
+          className="w-[90%] h-[400px] object-cover shadow-2xl shadow-black rounded-xl md:w-[30%] md:h-[350px]"
         ></Image>
         <Image
           src={image3}
           alt="Website-Imaeg"
-          className="w-full h-[400px] object-cover shadow-2xl shadow-black rounded-xl md:w-[30%] md:h-[350px]"
+          className="w-[90%] h-[400px] object-cover shadow-2xl shadow-black rounded-xl md:w-[30%] md:h-[350px]"
         ></Image>
       </div>
       <div>
