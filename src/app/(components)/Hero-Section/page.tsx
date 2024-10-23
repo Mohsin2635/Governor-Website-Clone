@@ -10,7 +10,7 @@ const Hero_Section = () => {
         priority
         className="hidden xl:block w-[100%] h-[90%] object-fill absolute opacity-20 "
       ></Image>
-      <div className="w-full relative top-14 left-7 font-extrabold text-sky-900">
+      <div className="w-full relative top-14 left-3 sm:left-7 font-extrabold text-sky-900">
         <h1 className="text-6xl ">Governor Sindh</h1>
         <h2 className="text-[45px] font-serif  ">Kamran Khan Tessori</h2>
         <p className="text-sky-500 text-4xl">
