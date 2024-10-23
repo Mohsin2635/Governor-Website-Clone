@@ -21,11 +21,11 @@ const Hero_Section = () => {
         <p className="text-2xl py-2 w-96">
           Now admissions are open in Hyderabad
         </p>
-        <div className="flex space-x-10 py-4">
-          <button className="border-2 px-11 py-4 text-white bg-sky-900 rounded-lg hover:translate-y-2 transform transition-all duration-300">
+        <div className="sm:flex sm:space-x-10 py-4 space-y-4 sm:space-y-0">
+          <button className="border-2 px-40 sm:px-11 py-4 rounded-3xl text-white bg-sky-900 sm:rounded-lg hover:translate-y-2 transform transition-all duration-300 text-sm sm:text-lg">
             APPLY NOW
           </button>
-          <div className="px-11 text-center">
+          <div className="sm:px-11 text-center">
             <h1 className="text-3xl ">562,143</h1>
             <p>Accepted Applications</p>
           </div>
