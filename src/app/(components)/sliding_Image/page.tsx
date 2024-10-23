@@ -23,7 +23,7 @@ const SlidingImages = () => {
 
   return (
     <div
-      className="relative mt-11 ml-8 h-[300px] md:h-full w-[95%] rounded-lg overflow-hidden xl:max-h-[500px] md:max-h-[300px]"
+      className="relative mt-11 ml-4 md:ml-8 h-[300px] md:h-full w-[95%] rounded-lg overflow-hidden xl:max-h-[500px] md:max-h-[300px]"
       style={{ boxShadow: "0 0 20px 0.5px", border: "none" }}
     >
       <div
