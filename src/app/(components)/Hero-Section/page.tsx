@@ -22,7 +22,7 @@ const Hero_Section = () => {
           Now admissions are open in Hyderabad
         </p>
         <div className="sm:flex sm:space-x-10 py-4 space-y-4 sm:space-y-0">
-          <button className="border-2 px-40 sm:px-11 py-4 rounded-3xl text-white bg-sky-900 sm:rounded-lg hover:translate-y-2 transform transition-all duration-300 text-sm sm:text-lg">
+          <button className="border-2 px-32 sm:px-11 py-4 rounded-3xl text-white bg-sky-900 sm:rounded-lg hover:translate-y-2 transform transition-all duration-300 text-sm sm:text-lg">
             APPLY NOW
           </button>
           <div className="sm:px-11 text-center">
